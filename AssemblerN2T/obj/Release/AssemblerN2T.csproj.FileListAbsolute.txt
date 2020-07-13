@@ -1,0 +1,14 @@
+E:\Libraries\Desktop\nand2tetris\projects\06\AssemblerN2T\AssemblerN2T\bin\Release\AssemblerN2T.exe.config
+E:\Libraries\Desktop\nand2tetris\projects\06\AssemblerN2T\AssemblerN2T\bin\Release\AssemblerN2T.exe
+E:\Libraries\Desktop\nand2tetris\projects\06\AssemblerN2T\AssemblerN2T\bin\Release\AssemblerN2T.pdb
+E:\Libraries\Desktop\nand2tetris\projects\06\AssemblerN2T\AssemblerN2T\obj\Release\AssemblerN2T.csprojAssemblyReference.cache
+E:\Libraries\Desktop\nand2tetris\projects\06\AssemblerN2T\AssemblerN2T\obj\Release\MainWindow.g.cs
+E:\Libraries\Desktop\nand2tetris\projects\06\AssemblerN2T\AssemblerN2T\obj\Release\App.g.cs
+E:\Libraries\Desktop\nand2tetris\projects\06\AssemblerN2T\AssemblerN2T\obj\Release\AssemblerN2T_MarkupCompile.cache
+E:\Libraries\Desktop\nand2tetris\projects\06\AssemblerN2T\AssemblerN2T\obj\Release\AssemblerN2T_MarkupCompile.lref
+E:\Libraries\Desktop\nand2tetris\projects\06\AssemblerN2T\AssemblerN2T\obj\Release\MainWindow.baml
+E:\Libraries\Desktop\nand2tetris\projects\06\AssemblerN2T\AssemblerN2T\obj\Release\AssemblerN2T.g.resources
+E:\Libraries\Desktop\nand2tetris\projects\06\AssemblerN2T\AssemblerN2T\obj\Release\AssemblerN2T.Properties.Resources.resources
+E:\Libraries\Desktop\nand2tetris\projects\06\AssemblerN2T\AssemblerN2T\obj\Release\AssemblerN2T.csproj.GenerateResource.cache
+E:\Libraries\Desktop\nand2tetris\projects\06\AssemblerN2T\AssemblerN2T\obj\Release\AssemblerN2T.exe
+E:\Libraries\Desktop\nand2tetris\projects\06\AssemblerN2T\AssemblerN2T\obj\Release\AssemblerN2T.pdb

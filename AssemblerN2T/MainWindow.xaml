@@ -1,0 +1,50 @@
+﻿<Window x:Class="AssemblerN2T.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AssemblerN2T"
+        mc:Ignorable="d"
+        Title="Assembler by Vaitul Bhayani" WindowState="Maximized">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Menu FontSize="15pt">
+            <MenuItem Header="Open File" BorderThickness="1" BorderBrush="Black" x:Name="openBtn" Click="openBtn_Click"/>
+            <MenuItem Header="Save File" BorderThickness="0 1 1 1" BorderBrush="Black" x:Name="saveBtn" Click="saveBtn_Click"/>
+            <MenuItem Header="START" BorderThickness="0 1 1 1" BorderBrush="Green" Background="LightGreen" x:Name="startBtn" Click="startBtn_Click"/>
+        </Menu>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Label Grid.Column="0" Grid.Row="0" Content="Code Here" BorderBrush="#DDD" BorderThickness="3 3 3 0" Padding="0" FontWeight="Bold" HorizontalContentAlignment="Center"/>
+            <RichTextBox AcceptsTab= "True" x:Name="codeEditor" Grid.Column="0" Grid.Row="1" BorderBrush="#ddd" BorderThickness="3" FontSize="12pt" VerticalScrollBarVisibility="Auto">
+                <RichTextBox.Resources>
+                    <Style TargetType="{x:Type Paragraph}">
+                        <Setter Property="Margin" Value="1"/>
+                    </Style>
+                </RichTextBox.Resources>
+            </RichTextBox>
+            
+            <Label Grid.Column="1" Grid.Row="0" Content="Code Output" BorderBrush="#DDD" BorderThickness="3 3 3 0" Padding="0" FontWeight="Bold" HorizontalContentAlignment="Center"/>
+            <ListBox Grid.Column="1" Grid.Row="1" x:Name="output">
+                <ListBox.Resources>
+                    <Style TargetType="{x:Type ListBoxItem}">
+                        <Setter Property="Background" Value="#eee"/>
+                    </Style>
+                </ListBox.Resources>
+            </ListBox>
+
+            <TextBlock Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" x:Name="errorBox" Foreground="Red" FontSize="15pt" FontWeight="Bold"/>
+        </Grid>
+    </Grid>
+</Window>

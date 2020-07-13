@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblerN2T", "AssemblerN2T\AssemblerN2T.csproj", "{2FC2B2AB-6D87-4D66-9009-71C25D0F6C2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FC2B2AB-6D87-4D66-9009-71C25D0F6C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FC2B2AB-6D87-4D66-9009-71C25D0F6C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FC2B2AB-6D87-4D66-9009-71C25D0F6C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FC2B2AB-6D87-4D66-9009-71C25D0F6C2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D5AD434-FAA6-460C-90E4-09F6A6FC73F1}
+	EndGlobalSection
+EndGlobal
